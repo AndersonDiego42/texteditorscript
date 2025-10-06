@@ -1,5 +1,5 @@
-<script type="text/babel">
-        // Toast notification component
+
+   // Toast notification component
         function Toast({ message, type, onClose }) {
             const [isVisible, setIsVisible] = React.useState(true);
             
@@ -1238,4 +1238,3 @@
 
         // Render the App
         ReactDOM.render(<App />, document.getElementById('root'));
-    </script>
